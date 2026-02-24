@@ -6,4 +6,5 @@
 #### Làm được những việc mà đáng nhẽ admin mới được phép làm (lên)
 #### Làm được những việc mà tài khoản khác mới làm được cùng quyền hạn (ngang)
 # Có rất nhiều viễn cảnh và loại lỗi Broken Access_Control
-#### 
+# IDOR (Insecure Direct Object Reference)
+#### Chỉ đơn giản là bug nhận Untrusted Data rơi vào một mã định danh(Identifer) sau đó truy cập sql mà không kiểm tra quyền hạn gì cả
