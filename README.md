@@ -10,3 +10,4 @@
 #### Chỉ đơn giản là bug nhận Untrusted Data rơi vào một mã định danh(Identifer) sau đó truy cập sql mà không kiểm tra quyền hạn gì cả
 #### 99% Untrusted data chính là cái mã định danh
 #### cho phép hacker truy cập trực tiếp tới các đối tượng thông qua untrusted data (vd ?postid=1,... thay 1 bằng 2 hacker xem được bài đăng 2)
+# Nếu Id được encode tìm quy tắc của nó hoặc id được tạo ngẫu nhiên thì tìm ra chỗ leak id 
